@@ -1,0 +1,54 @@
+body {
+    background-color: #ffffff;
+    background-image: url("/img/Ambiente.gif")
+}
+
+form fieldset {
+    margin: 10px auto 10px auto;
+    width: 30%;
+    border: solid black 1px;
+    padding: 3%;
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+}
+
+form legend {
+    padding: 6px;
+    margin: 10px;
+    border: solid rgb(0, 0, 0) 1px;
+    font-size: 90%;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #ffffff;
+}
+
+form label {
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: 'Boogaloo', cursive;
+    font-family: 'Press Start 2P', cursive;
+}
+
+form input {
+    width: 50%;
+    height: 30px;
+    border: solid #ccc 1px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+form input.botao {
+    display: block;
+    width: auto;
+    float: left;
+}
+
+#tabela {
+    font-family: 'Press Start 2P', cursive;
+}
+
+#rendimento {
+    font-family: 'Press Start 2P', cursive;
+}
