@@ -1,0 +1,37 @@
+<html>
+
+<head>
+      <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+      <meta charset="utf-8" />
+      <title>Calculadora de Juros Compostos</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+      <form name="calcform" method="post" action="">
+            <fieldset>
+                  <legend>Calculadora de Juros Compostos</legend>
+
+                  <label for="reais">Quantidade em reais: </label>
+                  <input type="text" name="reais" id="reais" />
+
+                  <label for="meses">Número de meses :</label>
+                  <input type="text" name="meses" id="meses" />
+
+                  <label for="juros">Porcentagem aplicada de juros :</label>
+                  <input type="text" name="juros" id="juros" />
+                  <p>
+                        <button type="button" onclick="calcular()">Calcular</button>
+                        <div class="tabela">
+                              <p id="tabela">Valor Mensal: </p>
+                        </div>
+                        <p id="rendimento">Rendimento: </p>
+
+
+            </fieldset>
+      </form>
+      <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
