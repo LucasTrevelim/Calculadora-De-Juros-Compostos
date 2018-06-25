@@ -1,6 +1,6 @@
 body {
     background-color: #ffffff;
-    background-image: url("/img/Ambiente.gif")
+    background-image: url("Ambiente.gif")
 }
 
 form fieldset {
