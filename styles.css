@@ -1,6 +1,9 @@
 body {
     background-color: #ffffff;
-    background-image: url("Ambiente.gif")
+    background-image: url("Ambiente.gif");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
 }
 
 form fieldset {
